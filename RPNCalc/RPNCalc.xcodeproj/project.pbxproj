@@ -58,17 +58,49 @@
 		EC8F051D22E0EBED00DE0D01 /* RPNCalc */ = {
 			isa = PBXGroup;
 			children = (
+				EC8F053422E0EC8B00DE0D01 /* App */,
+				EC8F053722E0ECC400DE0D01 /* View Controller */,
+				EC8F053622E0ECB300DE0D01 /* Storyboards */,
+				EC8F053522E0ECA400DE0D01 /* Resources */,
+			);
+			path = RPNCalc;
+			sourceTree = "<group>";
+		};
+		EC8F053422E0EC8B00DE0D01 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				EC8F051E22E0EBED00DE0D01 /* AppDelegate.h */,
 				EC8F051F22E0EBED00DE0D01 /* AppDelegate.m */,
-				EC8F052122E0EBED00DE0D01 /* ViewController.h */,
-				EC8F052222E0EBED00DE0D01 /* ViewController.m */,
-				EC8F052422E0EBED00DE0D01 /* Main.storyboard */,
-				EC8F052722E0EBEE00DE0D01 /* Assets.xcassets */,
-				EC8F052922E0EBEE00DE0D01 /* LaunchScreen.storyboard */,
 				EC8F052C22E0EBEE00DE0D01 /* Info.plist */,
 				EC8F052D22E0EBEE00DE0D01 /* main.m */,
 			);
-			path = RPNCalc;
+			path = App;
+			sourceTree = "<group>";
+		};
+		EC8F053522E0ECA400DE0D01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F052722E0EBEE00DE0D01 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC8F053622E0ECB300DE0D01 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F052422E0EBED00DE0D01 /* Main.storyboard */,
+				EC8F052922E0EBEE00DE0D01 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EC8F053722E0ECC400DE0D01 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F052122E0EBED00DE0D01 /* ViewController.h */,
+				EC8F052222E0EBED00DE0D01 /* ViewController.m */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
